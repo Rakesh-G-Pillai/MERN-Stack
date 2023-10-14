@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic{
+    border: 1px solid rgb(235, 228, 228);
+    width: 250px;
+    text-align: center;
+    margin-inline: 5px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding-block: 20px;
+}
+
+.pro{
+    background-color: rgb(94, 94, 94);
+}
+
+.pb-section{
+    padding-block: 10px;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.section{
+    font-size: 23px;
+}
+
+.footer{
+    background-color: rgb(245, 238, 238);
+    padding-block: 20px;
+
+}
+
+
+.signUp-button{
+    background-color: rgba(60, 179, 17, 0.825);
+    border: none;
+    padding: 10px;
+    color: white;
+}

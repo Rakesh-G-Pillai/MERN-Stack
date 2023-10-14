@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 700px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(222, 218, 218); 
+    background-color: white;
+}
+
+.profile-picture{
+    height: 170px;
+}
+
+.profile-name{
+    font-size: 17px;
+    margin-top: -30px;
+    margin-left: 3px;
+}
+
+.profile-info-section,.skills-header,.bottom-title{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.info-design,.info-title{
+    margin-left: 12px;
+}
+
+.info-desig{
+    margin-left: 15px;
+}
+
+.info-title{
+    font-size: 11px;
+    font-family: Arial;
+}
+
+.info-sections,.skills-header,.bottom-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 88%;
+    height: 13px;
+    background-color: rgb(233, 230, 230);
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.adobe,.Photography,.llustrator,.Media,.english,.Spanish,.German{
+    font-size: 12px;
+    text-align: center;
+    width: 90%;
+    height: 13px;
+    background-color: rgb(16, 167, 159);
+    border-radius: 50px;
+    color: white;
+}
+
+.Photography{
+    width: 80%;
+}
+.llustrator{
+    width: 75%;
+}
+.Media,.Spanish{
+    width: 50%;;
+}
+
+.english{
+    width: 100%;
+}
+
+.German{
+    width: 25%;
+}
+
+.main{
+    display: flex;
+    width: 855px;
+    height: 720px;
+    background: rgb(232, 229, 229);
+    margin-top: 10px;
+    margin-left: 290px;
+}
+
+.right-top-section,.right-bottom-section{
+    display: flex;
+    flex-direction: column;
+    height: 365px;
+    width: 600px;
+    margin-top: 11px;
+    margin-left: 10px;
+    border: 1px solid rgb(206, 195, 195);
+    padding: 15px;
+    background: white;
+}
+
+.right-bottom-section{
+    height: 323px;
+}
+
+.main-title,.title-rb-section{
+    display: flex;
+    align-items: center;
+}
+
+.work{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.education{
+    margin-left: 15px;
+}
+
+.title{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.current{
+    background-color: #188c78;
+    color: white;
+    padding-inline: 4px;
+    padding-block: 0.5px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.work-sections{
+    margin-bottom: 18px;
+}
+
+.time-stamp{
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 4px;
+    color: #188c78;
+}
+
+.calender{
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.desc{
+    margin-left: 4px;
+    margin-top: 10px;
+    font-size: 13px;
+}
